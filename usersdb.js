@@ -57,11 +57,13 @@ userdb.signIn = function (username, password, res, callback) {
         if (!user) {
             result = false
         }
-        else {
-            if (password)
-                result = true
-            else 
-                result = false
+        else {            
+            bcrypt.compare(password, user.Password, function (err, res) {
+                if(res)
+                    result = true
+                else 
+                    result = false
+            })
         }
         callback(err, result, user)
     })
