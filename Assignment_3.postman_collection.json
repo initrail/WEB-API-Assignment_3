@@ -60,11 +60,12 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:1010/signup",
+					"raw": "mymdb.herokuapp.com/signup",
 					"host": [
-						"localhost"
+						"mymdb",
+						"herokuapp",
+						"com"
 					],
-					"port": "1010",
 					"path": [
 						"signup"
 					]
@@ -117,11 +118,12 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:1010/signin",
+					"raw": "mymdb.herokuapp.com/signin",
 					"host": [
-						"localhost"
+						"mymdb",
+						"herokuapp",
+						"com"
 					],
-					"port": "1010",
 					"path": [
 						"signin"
 					]
@@ -159,11 +161,12 @@
 					"raw": "{\n\t\"token\":\"{{token}}\",\n\t\"movie\":{\n\t\t\"Title\":\"Harold & Kumar Go to White Castle\",\n\t\t\"Year\":2000,\n\t\t\"Genre\":\"Comedy\",\n\t\t\"Actors\":[\n\t\t\t{\"Actor\":{\"ActorName\":\"John Cho\",\"CharacterName\":\"Harold Lee\"}},\n\t\t\t{\"Actor\":{\"ActorName\":\"Kal Penn\", \"CharacterName\":\"Kumar Patel\"}}\n\t\t]\n\t}\n}"
 				},
 				"url": {
-					"raw": "localhost:1010/movies/insertamovie",
+					"raw": "mymdb.herokuapp.com/movies/insertamovie",
 					"host": [
-						"localhost"
+						"mymdb",
+						"herokuapp",
+						"com"
 					],
-					"port": "1010",
 					"path": [
 						"movies",
 						"insertamovie"
@@ -202,11 +205,12 @@
 					"raw": "{\n\t\"token\":\"{{token}}\",\n\t\"movie\":{\n\t\t\"Title\":\"Harold & Kumar Go to White Castle\",\n\t\t\"Year\":2000,\n\t\t\"Genre\":\"Comedy\",\n\t\t\"Actors\":[\n\t\t\t{\"Actor\":{\"ActorName\":\"John Cho\",\"CharacterName\":\"Harold Lee\"}},\n\t\t\t{\"Actor\":{\"ActorName\":\"Kal Penn\", \"CharacterName\":\"Kumar Patel\"}},\n\t\t\t{\"Actor\":{\"ActorName\":\"Neil Patrick Harris\", \"CharacterName\":\"Neil Patrick Harris\"}}\n\t\t]\n\t}\n\t\n}"
 				},
 				"url": {
-					"raw": "localhost:1010/movies/insertamovie",
+					"raw": "mymdb.herokuapp.com/movies/insertamovie",
 					"host": [
-						"localhost"
+						"mymdb",
+						"herokuapp",
+						"com"
 					],
-					"port": "1010",
 					"path": [
 						"movies",
 						"insertamovie"
@@ -249,11 +253,12 @@
 					"raw": "{\n\t\"token\":\"{{token}}\",\n\t\"movie\":{\n\t\t\"Title\":\"Menace II Society\",\n\t\t\"Year\":1993,\n\t\t\"Genre\":\"Drama\",\n\t\t\"Actors\":[\n\t\t\t{\"Actor\":{\"ActorName\":\"Tyrin Turner\",\"CharacterName\":\"Kaydee Lawson\"}},\n\t\t\t{\"Actor\":{\"ActorName\":\"Jada Pinkett\", \"CharacterName\":\"Ronnie\"}},\n\t\t\t{\"Actor\":{\"ActorName\":\"Larenz Tate\", \"CharacterName\":\"Kevin Anderson\"}}\n\t\t]\n\t}\n\t\n}"
 				},
 				"url": {
-					"raw": "localhost:1010/movies/getamovie?Title=Menace II Society",
+					"raw": "mymdb.herokuapp.com/movies/getamovie?Title=Menace II Society",
 					"host": [
-						"localhost"
+						"mymdb",
+						"herokuapp",
+						"com"
 					],
-					"port": "1010",
 					"path": [
 						"movies",
 						"getamovie"
@@ -302,11 +307,12 @@
 					"raw": "{\n\t\"token\":\"{{token}}\",\n\t\"movie\":{\n\t\t\"Title\":\"Menace II Society\",\n\t\t\"Year\":1993,\n\t\t\"Genre\":\"Drama\",\n\t\t\"Actors\":[\n\t\t\t{\"Actor\":{\"ActorName\":\"Tyrin Turner\",\"CharacterName\":\"Kaydee Lawson\"}},\n\t\t\t{\"Actor\":{\"ActorName\":\"Jada Pinkett\", \"CharacterName\":\"Ronnie\"}},\n\t\t\t{\"Actor\":{\"ActorName\":\"Larenz Tate\", \"CharacterName\":\"Kevin Anderson\"}}\n\t\t]\n\t}\n\t\n}"
 				},
 				"url": {
-					"raw": "localhost:1010/movies/getamovie?Title=Harold %26 Kumar Go to White Castle",
+					"raw": "mymdb.herokuapp.com/movies/getamovie?Title=Harold %26 Kumar Go to White Castle",
 					"host": [
-						"localhost"
+						"mymdb",
+						"herokuapp",
+						"com"
 					],
-					"port": "1010",
 					"path": [
 						"movies",
 						"getamovie"
@@ -371,11 +377,12 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:1010/movies/updateamovie",
+					"raw": "mymdb.herokuapp.com/movies/updateamovie",
 					"host": [
-						"localhost"
+						"mymdb",
+						"herokuapp",
+						"com"
 					],
-					"port": "1010",
 					"path": [
 						"movies",
 						"updateamovie"
@@ -404,11 +411,12 @@
 					"raw": "{\n\t\"token\":\"{{token}}\",\n\t\"movie\":{\n\t\t\"Title\":\"Menace II Society\",\n\t\t\"Year\":1993,\n\t\t\"Genre\":\"Drama\",\n\t\t\"Actors\":[\n\t\t\t{\"Actor\":{\"ActorName\":\"Tyrin Turner\",\"CharacterName\":\"Kaydee Lawson\"}},\n\t\t\t{\"Actor\":{\"ActorName\":\"Jada Pinkett\", \"CharacterName\":\"Ronnie\"}},\n\t\t\t{\"Actor\":{\"ActorName\":\"Larenz Tate\", \"CharacterName\":\"Kevin Anderson\"}}\n\t\t]\n\t}\n\t\n}"
 				},
 				"url": {
-					"raw": "localhost:1010/movies/getamovie?Title=Harold %26 Kumar Go to White Castle",
+					"raw": "mymdb.herokuapp.com/movies/getamovie?Title=Harold %26 Kumar Go to White Castle",
 					"host": [
-						"localhost"
+						"mymdb",
+						"herokuapp",
+						"com"
 					],
-					"port": "1010",
 					"path": [
 						"movies",
 						"getamovie"
@@ -454,11 +462,12 @@
 					"raw": "{\n\t\"token\":\"{{token}}\",\n\t\"_id\":\"{{_id}}\"\n}"
 				},
 				"url": {
-					"raw": "localhost:1010/movies/deleteamovie",
+					"raw": "mymdb.herokuapp.com/movies/deleteamovie",
 					"host": [
-						"localhost"
+						"mymdb",
+						"herokuapp",
+						"com"
 					],
-					"port": "1010",
 					"path": [
 						"movies",
 						"deleteamovie"
