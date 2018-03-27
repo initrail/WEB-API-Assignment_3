@@ -25,7 +25,7 @@ userdb.createUser = function (req, res) {
         res.json({ error: 'Retyped password does not match.' });
         return
     }
-    user.Password = req.body.password
+    user.Password = req.body.Password
     bcrypt.genSalt(10, function (err, salt) {
         bcrypt.hash(user.Password, salt, null, function (err, hash) {
             if (err)
